@@ -1,0 +1,4 @@
+name: wechat-bridge-assistant
+title: 微信桥接助手技能
+description: 用 wechat-bridge 收发微信消息的约定。覆盖 inbox 读取、outbox 回复写入、message_id 幂等、processed.json 去重、微信官方限流规则和 token 失效处理。当任务涉及通过本地 wechat-bridge 与微信用户收发消息时使用。
+category: messaging

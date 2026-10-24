@@ -1,0 +1,31 @@
+# 运行态与私人数据：绝不进版本库
+state/
+inbox/
+outbox/
+media/
+hidden_files/
+
+# 登录二维码与截图
+*.png
+*.jpg
+*.jpeg
+
+# 日志
+*.log
+
+# 会话与凭据类文件（双保险，即使有人改了目录结构）
+*session*.json
+*token*
+*secret*
+*credential*
+
+# Python 构建产物与虚拟环境
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+build/
+dist/
+
+# 系统文件
+.DS_Store
